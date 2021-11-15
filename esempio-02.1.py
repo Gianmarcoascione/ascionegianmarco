@@ -1,0 +1,9 @@
+A=80
+B=30
+C=10
+if(A<B>C):
+  print(B)
+elif(B<A<C):
+      print(C)
+else:
+  print(A)
