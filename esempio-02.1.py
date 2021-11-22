@@ -1,9 +1,9 @@
-A=80
-B=30
-C=10
-if(A<B>C):
+A=int(input("inserire numero"))
+B=int(input("inserire numero"))
+C=int(input("inserire numero"))
+if(B>A)and (B>C):
   print(B)
-elif(B<A<C):
+elif(C>A)and(C>B):
       print(C)
 else:
   print(A)
